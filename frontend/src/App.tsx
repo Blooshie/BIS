@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header/Header';
+import Login from './components/login/Login';
 
 function App() {
 
-  const submitHandler  = () : void => {
-    console.log("Submit form");
-  }
-
   return (
     <div className="App">
-     <h2>Login</h2>
-     <form action="{submitHandler}"></form>
+      <Header />
+      <Login />
     </div>
   );
 }
