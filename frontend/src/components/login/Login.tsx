@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 import "./Login.css";
 import "./Button.css";
-import { admin } from '../json/adminInfo.json';
+import { admin } from '../../json/adminInfo.json';
 
 export interface LoginProps {
 
