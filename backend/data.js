@@ -5,7 +5,6 @@ export const data = {
       name: "Marko",
       surname: "Matic",
       type: 1,
-      password: "bis01",
     },
     {
       id: 100001,
